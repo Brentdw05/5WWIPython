@@ -1,5 +1,6 @@
 # invoer
 eurocent = int(input('geef aantal eurocent: '))
+eurocent_2=eurocent
 
 #berekening
 aantal_muntstukken = eurocent // 100
@@ -24,5 +25,6 @@ aantal_muntstukken += (eurocent // 1)
 eurocent = eurocent % 1
 
 
-print(aantal_muntstukken, eurocent)
+#print(aantal_muntstukken, eurocent)
 #uitvoer
+print(str(eurocent_2) +  ' cent kan je omwisselen in '+ str(aantal_muntstukken) + ' muntstukken')
