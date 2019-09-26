@@ -7,9 +7,9 @@ r= input( 'straal van de silo: ')
 
 #berekening
 pi= 3.14159265359
-volume_silo= pi*r*r*h
-aantal_silo= volume_silo//c
-hoogte_laatste_silo=  volume_silo%c
+volume_silo= float(pi)*float(r)*float(r)*float(h)
+aantal_silo= volume_silo//float(c)
+hoogte_laatste_silo=  volume_silo%float(c)
 
 #uitvoer
 print(aantal_silo)
