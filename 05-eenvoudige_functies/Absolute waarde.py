@@ -1,5 +1,4 @@
-#42.06826283274985
-#13.510020196930185
+
 #kleiner dan of gelijk aan
 #'\N{LESS-THAN OR EQUAL TO}'
 
