@@ -1,8 +1,16 @@
 getal = int(input('geef getal: '))
 
-if getal % 2 == 0:
-    print(' even getal ')
+if getal < 0:
+    if getal % 2 == 0:
+        print('negatief even getal')
+    else:
+        print('negatief oneven getal')
+elif getal >0:
+    if getal % 2 == 0:
+        print('een positief even getal')
+    else:
+        print('een positief oneven getal')
 else:
-    print('oneven getal')
+    print('getal is 0')
 
 print( ' tot ziens ')
