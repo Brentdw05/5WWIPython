@@ -3,9 +3,9 @@ from math import pi
 #invoer
 
 
-r= input('de afstand tussen de satelliet en het middelpunt van de aarde: ')
+r= int(input('de afstand tussen de satelliet en het middelpunt van de aarde: '))
 
-v= input('de snelheid van de satelliet ten opzichte van de aarde: ')
+v= int(input('de snelheid van de satelliet ten opzichte van de aarde: '))
 
 #berekening
 
