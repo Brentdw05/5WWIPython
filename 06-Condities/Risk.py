@@ -30,3 +30,9 @@ else:
 #uitvoer
 
 print('aanvaller verliest ' + str(verlies_aanvaller)+ ' legers, verdeiger verliest ' + str(verlies_verdediger)+' legers')
+
+#maxi=max(X1 X2 X3 X4)
+#mini(X1 X2 X3 X4)
+#mid_1=max(min(X1 X2) min(X2 X3) min(X1 X3)
+#mid_2=X1+X2+X3+X4-mini-maxi-mid1
+#print(maxi,max(mid_1,mid_2),min(mid_1,mid_2),mini)
