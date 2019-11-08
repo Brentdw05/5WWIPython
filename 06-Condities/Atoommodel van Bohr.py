@@ -12,7 +12,7 @@ elif aantal_elektronen >= 28 and aantal_elektronen < 60:
     schil  = 'N'
 elif aantal_elektronen >= 60 and aantal_elektronen < 92:
     schil  = 'O'
-elif aantal_elektronen >= 92 and aantal_elektronen < 124:
+elif aantal_elektronen >= 92 and aantal_elektronen <= 124:
     schil = 'P'
 elif aantal_elektronen > 124 and aantal_elektronen <= 156:
     schil  = 'Q'
