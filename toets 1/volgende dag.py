@@ -14,16 +14,17 @@ if dag == 31 and maand == 12:
     dag = 1
     maand = 1
     jaar += 1
-elif dag == 31:
-    if maand == 1 or maand == 3 or maand == 5 or maand == 7 or maand == 8 or maand == 10 or maand == 12:
+elif dag == 31 or dag == 30:
+    if dag == 31 and maand == 1 or maand == 3 or maand == 5 or maand == 7 or maand == 8 or maand == 10 or maand == 12:
         dag = 1
         maand += 1
-elif dag == 30:
-    if maand == 4 or maand == 6 or maand == 9 or maand == 11:
+    elif dag == 30 and maand == 4 or maand == 6 or maand == 9 or maand == 11:
         dag = 1
         maand += 1
+    else:
+        dag += 1
 elif dag == 28 and maand == 2 and jaar_4 == 0  and jaar_400 == 0:
-    dag = 29
+        dag = 29
 elif dag == 28 and maand == 2 and jaar_4 == 0 and not jaar_100 == 0 :
     dag = 29
 elif dag == 28 and maand == 2:
