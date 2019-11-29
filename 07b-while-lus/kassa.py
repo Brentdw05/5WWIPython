@@ -2,10 +2,10 @@
 som = 0
 prijs = 1
 
-prijs = int(input('geef de prijs:'))
-    if prijs == 0:
-        som += 0
-    else:
-        som += prijs
-print(som)
+while prijs != 0:
+    prijs = float(input('geef prijs: '))
+    som += prijs
 
+som = round(som,2)
+
+print('De totale prijs is € ' + str(som))
