@@ -1,17 +1,18 @@
 # invoer
 
-t = input('het aantal seconden: ')
+t = int(input('het aantal seconden: '))
 aantal_stappen = 0
+getal = 0
 
 #berekening
 
-for i in (0, t):
-    getal = i
+for i in range(0, t):
+    t -= 1
+    getal += 1
     if getal % 2 == 0:
         aantal_stappen += 1
     else:
         aantal_stappen += 2
-
 
 #uitvoer
 
