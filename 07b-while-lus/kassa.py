@@ -6,6 +6,8 @@ while prijs != 0:
     prijs = float(input('geef prijs: '))
     som += prijs
 
-som = round(som,2)
+som = round(som , 2)
 
-print('De totale prijs is € ' + str(som))
+uitvoer = 'De totale prijs is € {:.2f}'
+
+print(uitvoer.format(som))
