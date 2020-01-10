@@ -20,7 +20,7 @@ for i in range(1, b + 1):
         som_delers_b += 0
 
 if som_delers_a == b and som_delers_b == a:
-    uitvoer = '{} en {} zijn bevriende getallen'
+    uitvoer = '{} en {} zijn bevriende getallen '
 else:
     uitvoer = '{} en {} zijn geen bevriende getallen'
 
