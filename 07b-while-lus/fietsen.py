@@ -7,11 +7,12 @@ aantal_seconden = 0
 
 #berekening
 
-while snelheid_stijn + snelheid_kaat != afstand and afstand >= 0:
+while afstand != 0 and afstand > 0:
     afstand -= snelheid_kaat + snelheid_stijn
     aantal_seconden += 1
 
 
 #uitvoer
 
-print(aantal_seconden)
+uitvoer = 'Na {} s hebben Stijn en Kaat elkaar ontmoet.'
+print(uitvoer.format(aantal_seconden))
