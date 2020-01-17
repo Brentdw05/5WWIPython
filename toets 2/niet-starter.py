@@ -9,7 +9,7 @@ n = 0
 
 while som < getal:
     n += 1
-    som += pow(1 / 2 , n)
+    som += pow(1 / 2, n)
     aantal_keer_god += 1
 
 
