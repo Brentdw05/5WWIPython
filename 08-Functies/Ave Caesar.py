@@ -7,14 +7,16 @@ def is_letter(een_teken):
         return False
 
 
-def roteer_letter(een_letter, Caesarcijfer):
-    return chr(ord(een_letter) + caesarcijfer)
+def roteer_letter(een_letter, caesarcijfer):
+    nieuwe_letter = ""
+    nieuwe_letter += chr(ord(een_letter)+ caesarcijfer)
+    return nieuwe_letter
 
 
 def versleutel(tekst, caesarcijfer):
-    nieuwe_tekst = ''
-
-        nieuwe_tekst += chr(letter + caesarcijfer)
+    tekst_einde = ''
+    for letter in range(tekst):
+     tekst_einde += roteer_letter(letter, caesarcijfer)
 
 
 print(versleutel('Het leven bestaat voor 10% uit dingen die gebeuren en voor 90% uit hoe jij daarop reageert.', 20))
