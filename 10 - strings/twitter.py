@@ -1,8 +1,5 @@
-#invoer
 
-quote = input('geef een quote: ')
+tekst = input('geef een tweet: ')
 
-#berekening
 
-for i in range(0, len(quote)):
-    if
+for i in range(0, len(tekst)):
