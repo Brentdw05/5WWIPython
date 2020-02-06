@@ -18,7 +18,9 @@ def versleutel(tekst, caesarcijfer):
     rotatie = ''
     for letter in tekst:
         rotatie += roteer_letter(letter, caesarcijfer)
+
     return rotatie
 
 
 
+print(versleutel('Het leven bestaat voor 10% uit dingen die gebeuren en voor 90% uit hoe jij daarop reageert.',20))
