@@ -2,8 +2,8 @@ def vlag(richting, kleur):
     uitvoer = ''
     if richting == 'verticaal':
         for i in kleur:
-                uitvoer += i
-                uitvoer += i + '|'
+            uitvoer += i + '|'
+
     else:
         pass
 
