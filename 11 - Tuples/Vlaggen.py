@@ -5,7 +5,8 @@ def vlag(richting, kleur):
             uitvoer += i + '|'
 
     else:
-        pass
+        for i in kleur:
+            uitvoer += kleur
 
     return uitvoer
 
