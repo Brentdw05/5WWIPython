@@ -21,5 +21,5 @@ def dalen_en_stijgen(list):
 
 
 
-print(dalen_en_stijgen([-761, 286, -113, 649, -547]))
+#print(dalen_en_stijgen([-761, 286, -113, 649, -547]))
 
